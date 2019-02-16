@@ -41,15 +41,9 @@ class MediaReciever: NSObject {
         //通知界面刷新
         NotificationCenter.default.post(name: NSNotification.Name("refreshQueue"), object: nil, userInfo: nil)
     
-        do {
-            try saveContex.save()
-            YDLHUD.showSuccess(text: Localized(enKey: "Fail"), delay: 1.5)
-            print("Successful")
-        }catch let error{
-            YDLHUD.showError(text: Localized(enKey: ""), delay: 1.5)
-            print("context can't save!, Error:\(error)")
-        }
-        
+           try saveContex.save()
+           YDLHUD.showSuccess(text: Localized(enKey: "Success"), delay: 1.5)
+           print("Successful")
     }
     
 

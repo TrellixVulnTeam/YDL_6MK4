@@ -27,7 +27,7 @@ A preview video at http://alturl.com/qj6oa
 # Tec
 
   - use [youtube_dl](https://github.com/rg3/youtube-dl  "With a Title") to exact video info from website
-  - play videos base on  [IJKFramework](https://github.com/bilibili/ijkplayer  "With a Title")
+  - play videos base on  [ijkplayer](https://github.com/bilibili/ijkplayer  "With a Title")
   - use icons from [iconfont](https://www.iconfont.cn/  "With a Title")
 
 License

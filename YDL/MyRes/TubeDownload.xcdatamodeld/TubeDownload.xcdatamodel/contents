@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="VideoCache" representedClassName="VideoCache" syncable="YES">
+        <attribute name="aTempTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extention" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isM3U8" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isSplitter" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isVideoDownloadFinished" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="m3u8CacheID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m3u8Data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="m3u8Index" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="progress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rateOfProgress" optional="YES" attributeType="Float" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="resolution" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="thumbData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="thumbURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vTempTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="VideoCache" positionX="-63" positionY="-18" width="128" height="375"/>
+    </elements>
+</model>

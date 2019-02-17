@@ -40,6 +40,8 @@ class MediaReciever: NSObject {
         DownloadManager.shared.downloadeds?.insert(dlModel, at: 0)
         //通知界面刷新
         NotificationCenter.default.post(name: NSNotification.Name("refreshQueue"), object: nil, userInfo: nil)
+        
+         YDLHUD.showSuccess(text: Localized(enKey: "success"), delay: 1.5)
     
            try saveContex.save()
            YDLHUD.showSuccess(text: Localized(enKey: "Success"), delay: 1.5)
